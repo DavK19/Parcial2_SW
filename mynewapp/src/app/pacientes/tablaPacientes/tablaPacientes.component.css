@@ -1,0 +1,42 @@
+.container {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+  }
+  
+  .col {
+    flex: 1;
+  }
+  
+  .table {
+    width: 100%;
+    margin-top: 20px;
+    border-collapse: collapse;
+  }
+  
+  .table-dark {
+    background-color: #333;
+    color: #fff;
+  }
+
+  .table-dark th {
+    padding: 10px;
+    border: 1px solid #fff;
+    background-color: #555;
+  }
+  
+  .table-dark td {
+    padding: 10px;
+    border: 1px solid #fff;
+    background-color: #fff;
+    color: #333;
+  }
+  
+  .table-dark tbody tr:hover {
+    background-color: #555;
+    cursor: pointer;
+  }
+  
+  .app-cartaPaciente {
+    margin-top: 20px;
+  }

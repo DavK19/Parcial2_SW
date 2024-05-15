@@ -1,0 +1,24 @@
+<div class = "container">
+  <div class = "col">
+    <table class = "table table-dark">
+      <thead>
+        <tr>
+          <th scope = "col">Nombre</th>
+          <th scope = "col">Edad</th>
+        </tr>
+      </thead>
+      <tbody *ngFor="let paciente of pacientes">
+        <tr (click) = "cambiarPaciente(paciente)">
+          <td>{{paciente.nombre}}</td>
+          <td>{{paciente.edad}}</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+  <div class = "col">
+    <app-cartaPaciente [paciente] = "paciente"></app-cartaPaciente>
+  </div>
+</div>
+
+
+

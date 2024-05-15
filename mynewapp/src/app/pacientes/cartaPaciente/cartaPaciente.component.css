@@ -1,0 +1,30 @@
+.card {
+    width: 300px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.15);
+    margin: 20px auto;
+    overflow: hidden;
+  }
+  
+  .card-header {
+    background-color: #f7f7f7;
+    padding: 10px;
+    color: #333;
+    font-size: 1.2em;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .card-title {
+    margin: 0;
+    font-weight: bold;
+  }
+  
+  .card-body {
+    padding: 10px;
+  }
+  
+  .card-text {
+    margin: 10px 0;
+    line-height: 1.5;
+  }
